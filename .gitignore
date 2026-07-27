@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+
+# C++
+*.o
+*.obj
+*.out
+
+# ROS2
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolib/
+.vscode/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+
+# Compiled firmware
+firmware/**/build/
+*.bin
+*.elf
+*.hex
+
+# Logs
+*.log
